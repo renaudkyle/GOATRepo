@@ -3,3 +3,12 @@ body
     background-color: green;
     font-family: "comic sans ms";
 }
+.backgroundimg
+{background-image: url("images/setinstone.jpg");
+background-position: "center-x";
+background-size: 200px 200px;
+height:200px;
+width:200px;
+align-content: "center";
+
+}
