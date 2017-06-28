@@ -10,5 +10,13 @@ background-size: 200px 200px;
 height:200px;
 width:200px;
 align-content: "center";
-
 }
+
+a{text-decoration: none}
+
+a:hover {text-decoration: underline;
+background-color: greenyellow}
+
+Td{font-style: italic;}
+
+TABLE{background-color: limegreen}
