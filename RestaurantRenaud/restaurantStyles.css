@@ -18,3 +18,32 @@ font-family:serif;
 
  .reqfield
  {font-weight: bold }
+
+a{color:cadetblue;
+}
+
+ a:visited{color: wheat}
+
+ a:hover{font-weight: bold}
+
+ A:active{text-decoration: none}
+
+ tr{text-align: center;}
+.menupage{background-color: rgb(0,150,100)}
+
+.menufood{width: 70%;
+margin-left:15%;
+margin-right: 15%}
+
+.menudrink
+{width: 70%;
+margin-left:15%;
+margin-right: 15%}
+
+caption{
+    color:goldenrod;
+    font-family: serif;
+    font-size:x-large;
+    font-weight: bold;
+    text-decoration: underline
+}
