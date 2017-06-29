@@ -4,6 +4,7 @@
         <link href="restaurantStyles.css"
         rel="stylesheet"
         type="text/css"/>
+        <link rel="stylesheet" href="C:\Users\N0211021\Desktop\Repos\GOATRepo\bootstrap-3.3.7-dist\css\bootstrap.min.css">
         <style>
             p {align= center; border-style: solid; border-width: 2px; height: 200px; width:250px;}
             </style>
@@ -12,23 +13,40 @@
         </title>
     </head>
     <body>
-        <div>
+        <div class=.container-fluid>
+        <div class=.row>
+        <div class=.col-small>
         <h1 class=restName align="center">Restaurant Renaud</h1>
+        </div>
+    
+        <div class="page-header centered .col-small">
+            <p class="text-center">
+                Opening our new downtown Portsmouth location in Fall of 2017! Stay tuned for updates!
+            </p>
+        </div>  
         <hr>
-        <a href="RestaurantIndex.html">Home   </a>
-        <a href="RestaurantMenu.html">Menu   </a>
-        <a href="Restaurantcontactus.html">Contact Us</a>
+        <div class=.col-sm>
+            <ul class="nav nav-tabs">
+        
+        <li><a class="glyphicon glyphicon-home" href="RestaurantIndex.html"></a></li>
+        <li><a href="RestaurantMenu.html">Menu   </a></li>
+        <li><a href="Restaurantcontactus.html">Contact Us</a></li>
+        
+            </ul>
         </div>
         <hr>
-        <div class=homeBody align-"center">
+        <div class=homeBody container align-"center" ".col-sm">
 
             <center>
-           <img src="images/RestaurantLogo.jpg" style="width:400px; 
+           <img class="img-responsive" src="images/RestaurantLogo.jpg" style="width:400px; 
            height:150px;border-radius: 50%; background-color:blue"/>
+           
            <br/>
+        
             <p>
             Specializing in gourmet versions of fast food restaurant menu items, Restaurant Renaud is proud to call the seacoast home for over 40 years.  With a focus on locally sourced ingredients and an in-house brewery, Restaurant Renaud offers the comfort of a small family restaurant with the offerings of an upscale five-star establishment.
         </p>
+        </div>
         </center>
         </div>
         <hr>
@@ -38,5 +56,6 @@
             <br/>
             (508) 813-3723
         </div></center></footer>
+        </div>
     </body>
 </html>

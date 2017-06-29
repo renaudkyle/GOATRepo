@@ -4,6 +4,7 @@
         <link href="restaurantStyles.css"
         rel="stylesheet"
         type="text/css">
+        <link rel="stylesheet" href="C:\Users\N0211021\Desktop\Repos\GOATRepo\bootstrap-3.3.7-dist\css\bootstrap.min.css">
         <style>
             label{color:blue;}
             </style>
@@ -14,19 +15,31 @@
     <body>
         <div>
         <h1 class=restName align="center">Restaurant Renaud</h1>
+        </div>
         <hr>
-        <a href="RestaurantIndex.html">Home   </a>
-        <a href="RestaurantMenu.html">Menu   </a>
-        <a href="Restaurantcontactus.html">Contact Us</a>
+           <div class=container>
+               <div class=row>
+            <ul class=nav nav-tabs>
+        
+        <div class="col-sm-4 nav nav-tabs"><li><a class="glyphicon glyphicon-home" href="RestaurantIndex.html"></a></li></div>
+        <div class="col-sm-4 nav nav-tabs"><li><a href="RestaurantMenu.html">Menu   </a></li></div>
+        <div class="col-sm-4 nav nav-tabs"><li><a href="Restaurantcontactus.html">Contact Us</a></li></div>
+        
+            </ul>
+        </div>
         </div>
         <hr>
         <div>
            <center> <form action=# method=POST>
+               
                 <label class=reqfield id="NameLabel" for="Name">Name:   </label></td>
                 <input id="Name" name "Name" type="text"/><br/>
+            
                 <br/>
+                
                 <label class=reqfield id="EmailLabel" for="Email">Email:   </label></td>
                 <input id="email" name "email" type="text"/><br/>
+             
                 <br/>
                 <label class=reqfield id="PhoneLabel" for="Phone">Phone:   </label></td>
                 <input id="phone" name "phone" type="text"/><br/>
@@ -64,6 +77,8 @@
             1501 Patriot Way, Nottingham, NH, 03290<br/>
             <br/>
             (508) 813-3723
-        </div></center></footer>
+        </div>
+        </center></footer>
+        </div>
     </body>
 </html>
