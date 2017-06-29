@@ -1,0 +1,12 @@
+Total height: margin-top(20) + border-top(1) + padding-top(10)
+    + height of content (150) + padding-bottom(10) + border-bottom(1) 
+    + margin-bottom(20) = 212px
+Total width: margin-left(20) + border-left(1) + padding-left(10)
+    + width of content (400) + padding-right(10) + border-right(1)
+    + margin-right(20) = 462px
+Browser calculated height: border-top(1) + padding-top(10)
+    + height of content (150) + padding-bottom(10) + border-bottom(1) 
+    = 172px
+Browser calculated width: border-left(1) + padding-left(10)
+    + width of content (400) + padding-right(10) + border-right(1)
+    = 422px
