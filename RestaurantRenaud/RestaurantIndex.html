@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html>
     <head>
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+         <script language="Javascript" type="text/javascript" src="C:\Users\N0211021\Desktop\Repos\GOATRepo\bootstrap-3.3.7-dist\js\bootstrap.min.js"></script>
+         <script language="JavaScript" type="text/javascript"> $(document).ready(function(){
+             $('.carousel').carousel({
+                 interval:3000
+             })
+         });</script>
          <meta name="viewport" content="width = device-width,
         initial-scale=1">
         <link href="restaurantStyles.css"
@@ -8,16 +15,61 @@
         type="text/css"/>
         <link rel="stylesheet" type="text/css" href="C:\Users\N0211021\Desktop\Repos\GOATRepo\bootstrap-3.3.7-dist\css\bootstrap.min.css">
         <link rel="stylesheet" href="C:\Users\N0211021\Desktop\Repos\GOATRepo\bootstrap-3.3.7-dist\css\bootstrap-theme.min.css">
+        <link rel="stylesheet" href="C:\Users\N0211021\Desktop\Repos\GOATRepo\bootstrap-3.3.7-dist\js\bootstrap.min.js">
         <title>Home Page</title>
     </head>
 
     <body>
         <div class="container">
-                <div class="page-header">
-                <h3 class="text-capitalize"> 
-                    Opening our new downtown Portsmouth location in Fall 2017! Stay tuned for updates!
-                </h3>
+        <div class="alert-danger">
+            <h6>If JavaScript is disabled on device, website may not display as expected</h6>
+        </div>
+                <div id "myCarousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="images/portsmouth.jpg" alt="Downtown Portsmouth" class="img-responsive" width="500" height ="300">
+                            <div class="carousel-caption">
+                                <h6>
+                                    Opening our new downtown Portsmouth location in Fall 2017! Stay tuned for updates!
+                                </h6>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img src="images/summer.jpg" alt="Summer" class="img-responsive" width="500" height ="300">
+                            <div class="carousel-caption">
+                                <h6>
+                                    We're rolling out our seasonal menu, with special options for this season.
+                                </h6>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img src="images/brew.jpg" alt="SG Brew" class="img-responsive" width="500" height ="300">
+                            <div class="carousel-caption">
+                                <h6>
+                                    The Drink of the Month is SG Special Brew.
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class-"sr-only">Prev</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
                 </div>
+        </div>  
+
                 <div class="row">
                     <div class="col-xs-12">
                         <h1 class=restName align="center">Restaurant Renaud</h1>
