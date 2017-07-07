@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/JavaScript" src="sampleAudition.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+<div class="container">
+    <h1>Sample Audition</h1>
+    <form name="auditionForm" onSubmit="return validateValues();" 
+          class="form-inline">
+            <div class="form-group has-success">
+                <label for="num1">Starting Number</label>
+                <input type="number" class="form-control" id="num1">
+            </div>
+            <div class="form-group has-success">
+                <label for="num2">Ending Number</label>
+                <input type="number" class="form-control" id="num2">
+            </div>
+            <div class="form group has-success">
+                <label for="stepNum">Step</label>
+                <input type="number" class="form-control" id="stepNum">
+            </div>           
+            <button type="submit" onClick = "return getNumbers" id="submitButton" class="btn btn-default">Display Events</button>
+    </form>
+    </div>
+    <alert class="numbers">
+        <p>Here are the even numbers between "num1 "and " num2 "by steps of "num3
+            </p>
+    </div>
+</body>
+</html>
